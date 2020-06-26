@@ -17,3 +17,13 @@ h5 {
 .row {
     margin: 40px auto;
 }
+
+
+.col > div {
+    background: lightblue;
+    height: 120px;
+}
+
+p {
+    line-height: normal;
+}
