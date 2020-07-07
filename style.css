@@ -6,23 +6,20 @@ h5 {
     height: 200px;
 }
 
-
+/* 
 .row > div {
     padding: 10px;
     background: #ddd;
     border: 1px solid #fff;
     line-height: 60px;
-}
+} */
 
 .row {
     margin: 40px auto;
 }
 
 
-.col > div {
-    background: lightblue;
-    height: 120px;
-}
+
 
 p {
     line-height: normal;
