@@ -314,6 +314,76 @@
     </div>
 
 
+
+
+
+
+    <!-- COLLECTIONS & LIST ITEMS  -->
+
+    <div class="container">
+        <h2>Collections</h2>
+            <ul class="collection with-header">
+                <li class="collection-header"><h4>Customers</h4></li>
+                <!-- class="avatar", applied to the list item itself, alters the person icon to make it look like a profile picture.-->
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Ryu</span>
+                    <p class="grey-text">black-belt</p>
+                    <a href="#" class="secondary-content"><i class="material-icons blue-text">email</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">Crystal</span>
+                    <p class="grey-text">purple-belt</p>
+                    <!-- class="secondary-content" moves the anchor tag to the right of the collection box.-->
+                    <a href="#" class="secondary-content"><i class="material-icons blue-text">email</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">person</i>
+                    <span class="title">SamSquanch</span>
+                    <p class="grey-text">Upright Ape in the Pacific Northwest</p>
+                    <a href="#" class="secondary-content"><i class="material-icons blue-text">email</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle blue">accessibility_new</i>
+                    <span class="title">Mario</span>
+                    <p class="grey-text">Wahoo</p>
+                    <a href="#" class="secondary-content"><i class="material-icons blue-text">email</i></a>
+
+                </li>
+                <li class="collection-item">Luigi</li>
+                <li class="collection-item">Bowser</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--  MODALS     OTHERWISE KNOWN AS POP-UPS    -->
+
+    <div class="container">
+        <h2>Modals</h2>
+
+
+        <a href="#terms" class="btn-small blue lighten-1 modal-trigger">Terms & Conditions</a>
+
+
+        <div class="modal" id="terms">
+            <div class="modal-content">
+                <h4>Terms & Conditions</h4>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <div class="modal-footer">
+                    <a href="#" class="modal-close btn green">Agree & Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -321,11 +391,19 @@
     <!--IMPORTANT......          PLACE THIS BELOW THE JQUERY SCRIPT TAG, ABOVE THE body CLOSING TAG -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></script> -->
+
     <!--This jquery utilizes a method provided by Materialize to give the mobile sidenav functionality-->
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav()
-        })
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+        });
     </script>
 
 </body>
